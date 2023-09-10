@@ -21,7 +21,6 @@
         android:layout_height="wrap_content"
         android:text="Empleado:"
         android:textSize="20dp"/>
-
     <Spinner
         android:id="@+id/sEmpleado"
         android:layout_width="match_parent"
