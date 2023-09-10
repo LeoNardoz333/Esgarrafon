@@ -8,4 +8,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="Azulc_laro">#4FB7EA</color>
+    <color name="Azul_casi_blanko">#E3F6FF</color>
+    <color name="Magenta_casi_blanko">#FFE3ED</color>
 </resources>

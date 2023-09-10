@@ -1,14 +1,170 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingHorizontal="15dp"
+    android:paddingVertical="15dp"
     tools:context=".Formulario">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Evaluar empleados"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Formulario"/>
+        android:text="Empleado:"
+        android:textSize="20dp"/>
 
-</RelativeLayout>
+    <Spinner
+        android:id="@+id/sEmpleado"
+        android:layout_width="match_parent"
+        android:popupBackground="@color/black"
+        android:layout_height="50dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grado de estudios:"
+        android:textSize="20dp"/>
+    <Spinner
+        android:id="@+id/sGrado"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Antigüedad:"
+        android:textSize="20dp"/>
+    <Spinner
+        android:id="@+id/sAntiguedad"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cursos de capacitación:"
+        android:textSize="20dp"/>
+    <Spinner
+        android:id="@+id/sCursosCap"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cuenta con certificaciones:"
+        android:textSize="20dp"/>
+    <Spinner
+        android:id="@+id/sCertificaciones"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cuenta con diplomados:"
+        android:textSize="20dp"/>
+    <Spinner
+        android:id="@+id/sDiplomados"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Impartición de cursos ST:"
+        android:textSize="20dp"/>
+    <Spinner
+        android:id="@+id/sCursosST"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Impartición de cursos:"
+        android:textSize="20dp"/>
+    <Spinner
+        android:id="@+id/sCursos"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intructor diplomado:"
+        android:textSize="20dp"/>
+    <Spinner
+        android:id="@+id/sInsDiplomado"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intructor certificaciones:"
+        android:textSize="20dp"/>
+    <Spinner
+        android:id="@+id/sInsCertificaciones"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Desarrollo proyectos de investigación:"
+        android:textSize="20dp"/>
+    <Spinner
+        android:id="@+id/sDesarrolloProyInv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Asesorias de residencias:"
+        android:textSize="20dp"/>
+    <Spinner
+        android:id="@+id/sAsesResidencias"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Asesorias de titulación:"
+        android:textSize="20dp"/>
+    <Spinner
+        android:id="@+id/sAsesTitulacio"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dirección de tesis:"
+        android:textSize="20dp"/>
+    <Spinner
+        android:id="@+id/sDireccionTesis"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+    <Button
+        android:id="@+id/btnEvaluar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ENVIAR"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/Azulc_laro"/>
+</LinearLayout>
